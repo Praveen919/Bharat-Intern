@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(17, 17, 17, 0.8); /* 0.8 is the alpha (transparency) value */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px); /* Optional: adds a frosted glass effect */
+    -webkit-backdrop-filter: blur(5px); /* Optional: for Safari */
+}
+
+/* Rest of your CSS remains unchanged */
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #e50914;
+}
+
+.main {
+    padding: 100px 0;
+}
+
+.hero {
+    background-image: url('netflix-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.hero-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+}
